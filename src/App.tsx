@@ -20,18 +20,11 @@ function App() {
     </div>
     <div className="text-center ">
      <img src={img}className="mx-auto mt-24 animate-bounce " />
-      <h3 className="mt-8 px-16 font-bold font-stretch-95%">
-        Hammer is
-        a brand that produces a variety of affordable and rugged smartwatches 
-        aimed at active and budget-conscious users, featuring long battery life 
-        and Bluetooth calling capabilities.To find the perfect Hammer smartwatch 
-        for your needs, please specify your desired features (e.g., built-in GPS vs.
-        phone-connected GPS, specific sports modes) or your maximum budget to see a side-by-side comparison. 
-      </h3>
+     
       <img src="img/image-removebg-preview(26).png" className="mx-auto mt-15 " />
       <div>
         <a href="https://www.google.com/search?q=smart+watch+hammer&client=firefox-b-d&hs=cZHp&sca_esv=9cf1df91a9197cf6&aep=1&udm=2&biw=496&bih=793&aic=0&sxsrf=ANbL-n4e00-Y6Edje8EnoSTiFhk54vNSIA%3A1770102241783&ei=4Z2Baae2L6ys0-kP8ISesA4&ved=0ahUKEwjnqtna4LySAxUs1jQHHXCCB-YQ4dUDCBI&uact=5&oq=smart+watch+hammer&gs_lp=Egtnd3Mtd2l6LWltZyISc21hcnQgd2F0Y2ggaGFtbWVyMgcQIxgnGMkCMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBBAAGB4yBBAAGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB5Isg5Q4wVY5QdwAngAkAEAmAFfoAFfqgEBMbgBA8gBAPgBAZgCA6ACnQHCAgUQABiABMICBhAAGAUYHpgDAIgGAZIHAzIuMaAH3wayBwMwLjG4B3DCBwUzLTIuMcgHNIAIAA&sclient=gws-wiz-img" target="blenk">
-        <button className="bg-blue-500 px-8 py-3 rounded-full hover:bg-pink-500 mt-20">SMART WATCH HAMMER</button>
+        <button className="bg-blue-500 px-8 py-3 rounded-full hover:bg-pink-500 mt-20"> HAMMER</button>
         </a>
       </div>
       <div className="mt-14">
