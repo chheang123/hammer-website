@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-    <div className="flex items-center justify-between bg-yellow-500 px-8 py-4 text-black  ">
+    <div className="flex items-center justify-between bg-yellow-500 px-2 py-4 text-black  ">
       <h1 className="text-2xl font-bold ">
         HAMMER ⌚
       </h1>
@@ -28,7 +28,15 @@ function App() {
         </a>
       </div>
       <div className="mt-14">
-        <img src="img/hammerlogo.jpg" alt="" />
+       
+        <div className="w-full">
+    <div className="w-full relative aspect-[16/9] md:h-screen ">
+      <div className="absolute inset-0 bg-[url('img/hammerlogo4.jpg')]  bg-cover bg-center "></div>
+    </div>
+    <div className="w-full relative aspect-[16/9] md:h-screen">
+      <div className="absolute inset-0 bg-[url('img/hammerlogo5.jpg')] bg-cover bg-center"></div>
+    </div>
+    </div>
       </div>
       
     </div>
@@ -126,17 +134,11 @@ function App() {
           </a>
         
       </div>
+      
 
     </div>
 
-    <div className="w-full">
-    <div className="w-full relative aspect-[16/9] md:h-screen ">
-      <div className="absolute inset-0 bg-[url('img/hammerlogo4.jpg')]  bg-cover bg-center "></div>
-    </div>
-    <div className="w-full relative aspect-[16/9] md:h-screen">
-      <div className="absolute inset-0 bg-[url('img/hammerlogo5.jpg')] bg-cover bg-center"></div>
-    </div>
-    </div>
+    
     
     
     </div>
