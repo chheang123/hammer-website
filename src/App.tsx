@@ -19,7 +19,7 @@ function App() {
       <button className="md:hidden text-3xl"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#000" d="M3 7h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2m18 10H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-4H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-4H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2" stroke-width="0.5" stroke="#000"/></svg></button>
     </div>
     <div className="text-center ">
-     <img src={img}className="mx-auto mt-24 animate-bounce " />
+     <img src={img}className="mx-auto mt-10 animate-bounce " />
      
       <img src="img/image-removebg-preview(26).png" className="mx-auto mt-15 " />
       <div>
@@ -28,19 +28,11 @@ function App() {
         </a>
       </div>
       <div className="mt-14">
-       
-        <div className="w-full">
-    <div className="w-full relative aspect-[16/9] md:h-screen ">
-      <div className="absolute inset-0 bg-[url('img/hammerlogo4.jpg')]  bg-cover bg-center "></div>
-    </div>
-    <div className="w-full relative aspect-[16/9] md:h-screen">
-      <div className="absolute inset-0 bg-[url('img/hammerlogo5.jpg')] bg-cover bg-center"></div>
-    </div>
-    </div>
+        <img src="img/hammerlogo.jpg" alt="" />
       </div>
       
     </div>
-    <div className="text-center mt-16 font-bold text-6xl font-serif">
+    <div className="text-center mt-7 font-bold text-6xl font-serif">
       <h1 className="text-yellow-500">PRODUCTS</h1>
       <h2 className="text-pink-500">SMART WATCH HAMMER</h2>
     </div>
@@ -134,10 +126,55 @@ function App() {
           </a>
         
       </div>
-      
 
     </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-5  ">
 
+      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
+        <img src="public/img/image-removebg-preview(43).png"  className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
+          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
+          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+          <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
+          </a>
+        
+      </div>
+
+      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
+        <img src="public/img/image-removebg-preview(42).png"  className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
+          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
+          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+          <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
+          </a>
+        
+      </div>
+
+      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center ">
+        <img src="public/img/image-removebg-preview(41).png"  className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
+          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
+          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+          <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
+          </a>
+        
+      </div>
+
+      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center ">
+        <img src="src/image-removebg-preview(44).png"  className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
+          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
+          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+          <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
+          </a>
+        
+      </div>
+    </div>
+    
     
     
     
