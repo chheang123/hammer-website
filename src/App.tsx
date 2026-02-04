@@ -1,4 +1,4 @@
-
+import img from "../public/img/image-removebg-preview(38).png"
 
 function App() {
   
@@ -19,7 +19,7 @@ function App() {
       <button className="md:hidden text-3xl"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#000" d="M3 7h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2m18 10H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-4H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-4H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2" stroke-width="0.5" stroke="#000"/></svg></button>
     </div>
     <div className="text-center ">
-     <img src="img/image-removebg-preview(38).png" className="mx-auto mt-24 animate-bounce " />
+     <img src={img}className="mx-auto mt-24 animate-bounce " />
       <h3 className="mt-8 px-16 font-bold font-stretch-95%">
         Hammer is
         a brand that produces a variety of affordable and rugged smartwatches 
