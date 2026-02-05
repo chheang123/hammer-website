@@ -8,6 +8,10 @@ import img44 from "../public/img/img44.png"
 import smartwatch from "../public/img/bg-hammer.jpg"
 import smartwatch1 from "../public/img/hammerlogo4.jpg"
 import logo from "../public/img/hemmer-1.jpg"
+import youtob from "../public/img/youtube(1).png"
+import google from "../public/img/google.png"
+import ig from "..//public/img/social.png"
+import facebook from "../public/img/logos--facebook(1).svg"
 
 
 function App() {
@@ -185,7 +189,7 @@ function App() {
         <p className="text-white">The HAMMER BLADE V 5G is a rugged smartphone built for extreme conditions with IP69
            and military certification. It features a 6.59-inch FHD+ 120 Hz display, a replaceable 5000 mAh battery, 
            and a fast Dimensity D7050 processor running on Android 13.
- </p>
+      </p>
           <a href="https://www.elesen.lt/en/phones/smartphones/smartphones/tel000839/hammer-blade-v-5g-8gb-256gb-black-smartphone"target="blenk">
           <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
           </a>
@@ -202,7 +206,33 @@ function App() {
           </a>
         
       </div>
-     
+    </div>
+    <div className=" bg-amber-950 pt-10 pb-20">
+      <div className=" text-center mt-2">
+        <h1 className="text-4xl font-bold  ">ABOUT</h1>
+        <p className="mt-5 px-5">Hammer smartwatches and phones are designed for active users and people working in demanding conditions, offering primary benefits in
+        durability, long battery life, and a robust set of features tailored for outdoor use.</p>
+        <p>The primary benefit of a Hammer smartwatch is its ruggedness combined with a full range of modern smartwatch functionalities. </p>
+      </div>
+
+    <div className="absolute  left-1/2 -translate-x-1/2 flex gap-2 mt-5">
+      <a href="https://www.youtube.com/results?search_query=smart+watch+hammer">
+      <img src={youtob} className="w-10 flex items-center justify-center"/>
+      </a>
+
+      <a href="https://www.google.com/search?client=firefox-b-d&hs=E1cU&sca_esv=cf5c25c52e0d4239&sxsrf=ANbL-n6SePrjb4zA_tbe6hlBQhZ3Rg2obg:1770281806880&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxBf9XF8ByrMpEedseJb6C24e7QdJQdIE3TPpl5mEwf0HZUp1chSl04q3NzUG-sivE9fh2upv_LUl1i41J2OLX0ntDV3FbKmN59pJf5BBarEFT9msi8Zx3tjpgPrbRkWHc8AvYww&q=smart+watch+hammer&sa=X&ved=2ahUKEwjCmoHS_cGSAxXZs1YBHadLETsQtKgLegQIFRAB&biw=603&bih=793&dpr=1.2&aic=0" target="blenk">
+      <img src={google} className="w-10"/>
+      </a>
+
+      <a href="https://www.instagram.com/popular/hammer-smart-watch/" target="blenk">
+      <img src={ig}  className="w-10"/>
+      </a>
+
+      <a href="https://www.facebook.com/HammerLifestyle" target="blenk">
+      <img src={facebook}  className="w-10"/>
+      </a>
+    </div>
+
     </div>
     
     
