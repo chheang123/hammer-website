@@ -1,7 +1,14 @@
 
 import imglogo from "../public/img/image-removebg-preview(45).png"
 import logopd from "../public/img/image-removebg-preview(46).png"
+import img41 from "../public/img/img41.png"
+import img42 from "../public/img/img42.png"
+import img43 from "../public/img/img43.png"
 import img44 from "../public/img/img44.png"
+import logophone from "../public/img/logophonehammer.webp"
+import smartwatch from "../public/img/bg-hammer.jpg"
+import smartwatch1 from "../public/img/hammerlogo4.jpg"
+import logo from "../public/img/hemmer-1.jpg"
 
 
 function App() {
@@ -130,53 +137,73 @@ function App() {
           </a>
         
       </div>
+      <div>
+        <img src={smartwatch} />
+      </div>
+      <div>
+        <img src={smartwatch1} />
+      </div>
+      <div>
+        <img src={logo} />
+      </div>
 
     </div>
+
+    <div className="mt-9 font-semibold ">
+      <h1 className="text-5xl font-bold  text-center">SMART PHONE HAMMER</h1>
+    </div>
+
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-5  ">
 
-      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
-        <img src="public/img/img41.png"  className="w-70 h-70 object-center mt-5"/>
-        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
-        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
-          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
-          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+      <div className="bg-sky-500/50 shadow-lg rounded-xl p-6 flex flex-col items-center">
+        <img src={img41} className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-white font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-white">
+        The perfect choice for active people and lovers of extreme lifestyles, the Hammer Energy X is a smartphone that 
+        features a 5.5-inch HD+ IPS Gorilla Glass 3 screen, IP69 certification, MIL-STD-810H certification, eSIM technology, VoLTE, </p>
+          <a href="https://www.tradeinn.com/techinn/en/hammer-energy-x-5.5-mobile-phone/140190874/p"target="blenk">
           <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
           </a>
         
       </div>
 
-      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center">
-        <img src="public/img/img42.png"  className="w-70 h-70 object-center mt-5"/>
-        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
-        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
-          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
-          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+      <div className="bg-sky-500/50 shadow-lg rounded-xl p-6 flex flex-col items-center">
+        <img src={img42} className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-white font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-white">Product description of Hammer Construction 6GB/128GB 6 Dual Sim
+        This device is unlocked from any phone company (factory unlocked).
+        Please note:Power adapter sold separately.
+        Hammer construction is an advanced smartphone with a 6.</p>
+          <a href="https://www.tradeinn.com/techinn/en/hammer-construction-6gb-128gb-6-dual-sim/139693173/p"target="blenk">
           <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
           </a>
         
       </div>
 
-      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center ">
-        <img src="../public/img/img43.png"  className="w-70 h-70 object-center mt-5"/>
-        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
-        <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
-          1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
-          <a href="https://www.amazon.in/HAMMER-Active-3-0-Bluetooth-Notifications/dp/B0CH8NQNZV?th=1"target="blenk">
+      <div className="bg-sky-500/50 shadow-lg rounded-xl p-6 flex flex-col items-center ">
+        <img src={img43}  className="w-70 h-70 object-center mt-5"/>
+        <h1 className="text-white font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-white">The HAMMER BLADE V 5G is a rugged smartphone built for extreme conditions with IP69
+           and military certification. It features a 6.59-inch FHD+ 120 Hz display, a replaceable 5000 mAh battery, 
+           and a fast Dimensity D7050 processor running on Android 13.
+ </p>
+          <a href="https://www.elesen.lt/en/phones/smartphones/smartphones/tel000839/hammer-blade-v-5g-8gb-256gb-black-smartphone"target="blenk">
           <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
           </a>
         
       </div>
 
-      <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center ">
+      <div className="bg-sky-500/50 shadow-lg rounded-xl p-6 flex flex-col items-center ">
         <img src={img44}  className="w-70 h-70 object-center mt-5"/>
-        <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
-        <p className="text-black">Hammer Iron Steel Lite No Contract, Robust, Waterproof, Dual SIM, Powerful 6500 mAh Battery,
+        <h1 className="text-white font-semibold text-center text-2xl">Hammer</h1>
+        <p className="text-white">Hammer Iron Steel Lite No Contract, Robust, Waterproof, Dual SIM, Powerful 6500 mAh Battery,
            64GB + 4GB RAM, Android 14, 13 MPX Camera with Night Vision Sensor IP69 Droptest, 300 Hours Standby </p>
           <a href="https://www.amazon.co.uk/Hammer-Contract-Waterproof-Powerful-Droptest/dp/B0D63142NK"target="blenk">
           <button className="bg-pink-700 hover:bg-pink-500 px-5 py-2 rounded-full mt-2">Check it out.</button>
           </a>
         
       </div>
+     
     </div>
     
     
