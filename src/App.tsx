@@ -157,7 +157,7 @@ function App() {
       </div>
 
       <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center ">
-        <img src="public/img/img43.png"  className="w-70 h-70 object-center mt-5"/>
+        <img src="../public/img/img43.png"  className="w-70 h-70 object-center mt-5"/>
         <h1 className="text-gray-900 font-semibold text-center text-2xl">Hammer</h1>
         <p className="text-black">1.39" Radiant IPS Always On Display: Radiate Confidence with the Unisex smart watch for women and men with 
           1.39" IPS Display, Pixel Resolution of 240*240, a Stunning 600 Nits Brightness and Always On Display </p>
